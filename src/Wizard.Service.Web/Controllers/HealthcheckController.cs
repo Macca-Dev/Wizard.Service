@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Wizard.Service.Controllers
+namespace Wizard.Service.Web.Controllers
 {
 	public class HealthcheckController : Controller
 	{

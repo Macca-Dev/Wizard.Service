@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Wizard.Service", "src\Wizard.Service\Wizard.Service.xproj", "{6A35ED3D-3400-434A-9CC5-E0C3C0FD0E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wizard.Service.Web", "src\Wizard.Service.Web\Wizard.Service.Web.csproj", "{6A35ED3D-3400-434A-9CC5-E0C3C0FD0E8A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Wizard.Service.Contracts", "Wizard.Service.Contracts\Wizard.Service.Contracts.xproj", "{01951774-A1D8-47CE-915F-D87C18BA2E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wizard.Service.Contracts", "src\Wizard.Service.Contracts\Wizard.Service.Contracts.csproj", "{01951774-A1D8-47CE-915F-D87C18BA2E4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

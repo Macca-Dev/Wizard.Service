@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Routing;
 using Wizard.Service.Contracts;
 
-namespace Wizard.Service.Controllers
+namespace Wizard.Service.Web.Controllers
 {
 	[Route("v1")]
 	public class HorseController : Controller
