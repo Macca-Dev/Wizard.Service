@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Wizard.Service
+namespace Wizard.Service.Web
 {
 	public class Program
 	{

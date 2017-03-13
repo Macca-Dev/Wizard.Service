@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Wizard.Service.Contracts;
 
-namespace Wizard.Service.Controllers
+namespace Wizard.Service.Web.Controllers
 {
 	[Route("v1")]
 	public class ChargeTypeController :Controller

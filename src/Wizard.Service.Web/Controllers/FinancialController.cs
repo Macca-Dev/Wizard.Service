@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Wizard.Service.Contracts;
 
-namespace Wizard.Service.Controllers
+namespace Wizard.Service.Web.Controllers
 {
 	[Route("v1")]
 	public class FinancialController : Controller
