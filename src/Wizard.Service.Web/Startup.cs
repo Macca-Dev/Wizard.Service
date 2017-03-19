@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Swagger;
+using Wizard.Service.Libs.Mappers;
+using Wizard.Service.Libs.Mappers.Impl;
 
 namespace Wizard.Service
 {
@@ -27,8 +29,8 @@ namespace Wizard.Service
 			{
 				c.SwaggerDoc("v1", new Info { Title = "Wizard Service", Version = "v1" });
 			});
-			
 
+			services.AddSingleton<IStableMapper, StableMapper>();
 		}
 		
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
