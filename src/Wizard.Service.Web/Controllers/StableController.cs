@@ -3,23 +3,31 @@ using Wizard.Service.Contracts;
 
 namespace Wizard.Service.Web.Controllers
 {
-    [Route("v1")]
+	[Route("v1")]
 	public class StableController : Controller
 	{
+		private IStableMapper _mapper;
+
+		public StableController(IStableMapper mapper)
+		{
+			_mapper = mapper;
+		}
+		
 		[HttpPost]
 		[Route("stable")]
-		public IActionResult Create([FromBody] PostStableDataRequest request)
+		public IActionResult Create([FromBody] PostStableMetadataRequest request)
 		{
 			if(RequestIsInvalid(request))
 			{
 				return BadRequest();
 			}
 
-			
+
+
 			return Ok();
 		}
 
-        private bool RequestIsInvalid(PostStableDataRequest request)
+        private bool RequestIsInvalid(PostStableMetadataRequest request)
         {
             return request == null;
         }
