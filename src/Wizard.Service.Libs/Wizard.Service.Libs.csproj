@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\Impl\" />
+    <ProjectReference Include="..\Wizard.Service.Contracts\Wizard.Service.Contracts.csproj" />
+    <ProjectReference Include="..\Wizard.Service.Persistence\Wizard.Service.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
